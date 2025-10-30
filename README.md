@@ -1,18 +1,12 @@
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Welcome to my Java Budget Tracker! It is composed of three classes that are meant to help the user track their finances.
 
-## Folder Structure
+# Class Number One -- Transaction Class
+The Transaction class is composed of 5 private variables, a constructor for Transaction items, 5 get methods to access the private variables, and 5 set methods to change the values stored inside the private variables. It also has a toString() method.
 
-The workspace contains two folders by default, where:
+# Class Number Two -- BudgetManager Class
+The BudgetManager class creates an array list of transactions, and multiple banking methods. These methods are adding transactions, removing transactions, retrieving all the transactions that have occurred, retrieving the account balance, and filtering the transactions by category.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+# Class Number Three -- BudgetApp Class (main)
+The BudgetApp class is our main program. It uses a while loop to display the options menu to user, and take input on which function it should perform. Then using this choice, and switches/breaks, the program runs a specific block of code based on what action the user wants to be performed.
